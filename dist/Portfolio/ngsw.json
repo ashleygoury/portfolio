@@ -1,0 +1,94 @@
+{
+  "configVersion": 1,
+  "timestamp": 1582688829556,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main-es2015.cfe6bda80e255bcd2372.js",
+        "/main-es5.cfe6bda80e255bcd2372.js",
+        "/manifest.webmanifest",
+        "/polyfills-es2015.2987770fde9daa1d8a2e.js",
+        "/polyfills-es5.6696c533341b95a3d617.js",
+        "/runtime-es2015.edb2fcf2778e7bf1d426.js",
+        "/runtime-es5.edb2fcf2778e7bf1d426.js",
+        "/styles.3ff695c00d717f2d2a11.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/alex-brush.bab6c6740e68cbdd314c.ttf",
+        "/assets/fonts/alex-brush.ttf",
+        "/assets/fonts/opensans-reg.ttf",
+        "/assets/fonts/saira-extra-cond-reg.ttf",
+        "/assets/icons/favicon.ico",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/img/TicTacToe.png",
+        "/assets/img/a icon.png",
+        "/assets/img/ashley-goury.jpg",
+        "/assets/img/business-card.png",
+        "/assets/img/social-media.jpg",
+        "/assets/img/video-background.mp4",
+        "/opensans-reg.5a798cdadc7cd321e3f7.ttf",
+        "/saira-extra-cond-reg.863f1585e83e73dc3286.ttf"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/alex-brush.bab6c6740e68cbdd314c.ttf": "d38104f8e83b24ff5da56780ea53864df076b6fc",
+    "/assets/fonts/alex-brush.ttf": "d38104f8e83b24ff5da56780ea53864df076b6fc",
+    "/assets/fonts/opensans-reg.ttf": "dc9c07303a2392f9ee02fdb636814970753ac94a",
+    "/assets/fonts/saira-extra-cond-reg.ttf": "5da54e479e20c40c6b1f0be39616f65e839c9eb9",
+    "/assets/icons/favicon.ico": "62bde0e5d2eccabb5a0806954c550de017637897",
+    "/assets/icons/icon-152x152.png": "6dab8b0898025a8952d6ff0f3b85bb6ef2eb2f9e",
+    "/assets/icons/icon-192x192.png": "60f3fd82bf4b70f31ccbfadb5aadce0807b6a93d",
+    "/assets/img/TicTacToe.png": "ebd5676a75097dde204fd4512c39895f7ca0aeeb",
+    "/assets/img/a icon.png": "a59ad6fda1105c9a8147031729053bef30c9427f",
+    "/assets/img/ashley-goury.jpg": "5e8a40024fd72cc786bc0ef987d30b8219705180",
+    "/assets/img/business-card.png": "f6fe8c9226bb08abe5e9ba422be4cf7849c1ae43",
+    "/assets/img/social-media.jpg": "04ec296b9a2d0d6d73288731322227857c81d675",
+    "/assets/img/video-background.mp4": "833bde0e6c20d82922b6e8853d9c0fd4a4ce5632",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "82cea130e3c2b67a602198d974e85fd6bdeb61f0",
+    "/main-es2015.cfe6bda80e255bcd2372.js": "d1c16eb5f5b1c22ce7bab1b13c5eba13ab339a91",
+    "/main-es5.cfe6bda80e255bcd2372.js": "eb7f821b5d68df1554bd6f47235addb85389d200",
+    "/manifest.webmanifest": "0f7ade763f6ae328b045297c55f7203a691f8d76",
+    "/opensans-reg.5a798cdadc7cd321e3f7.ttf": "dc9c07303a2392f9ee02fdb636814970753ac94a",
+    "/polyfills-es2015.2987770fde9daa1d8a2e.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",
+    "/polyfills-es5.6696c533341b95a3d617.js": "6bff0c03e05bb347d213ad1b3674045eb892d189",
+    "/runtime-es2015.edb2fcf2778e7bf1d426.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/runtime-es5.edb2fcf2778e7bf1d426.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/saira-extra-cond-reg.863f1585e83e73dc3286.ttf": "5da54e479e20c40c6b1f0be39616f65e839c9eb9",
+    "/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+<div class="wrapper">
+  <app-nav-menu></app-nav-menu>
+  <router-outlet></router-outlet>
+  <!--  Home-->
+  <section id="home">
+    <!--    Video Background-->
+    <video loop muted autoplay id="video-background">
+      <source src="../assets/img/video-background.mp4" type="video/mp4">
+    </video>
+    <div class="video-overlay"></div>
+
+    <h1 class="main-title">Ashley Goury</h1>
+    <!--    Social Icons-->
+    <div class="social-icons">
+      <a href="https://github.com/ashleygoury" target="_blank" rel="noopener">
+        <fa-icon [icon]="faGithub" title="Github"></fa-icon>
+      </a>
+      <a href="https://www.linkedin.com/in/ashley-goury/" target="_blank" rel="noopener">
+        <fa-icon [icon]="faLinkedin" title="Linkedin"></fa-icon>
+      </a>
+      <a href="https://www.facebook.com/ashley2705" target="_blank" rel="noopener">
+        <fa-icon [icon]="faFacebook" title="Facebook"></fa-icon>
+      </a>
+      <a href="https://gitlab.com/ashleygoury" target="_blank" rel="noopener">
+        <fa-icon [icon]="faGitlab" title="Gitlab"></fa-icon>
+      </a>
+    </div>
+  </section>
+
+  <!--  About-->
+  <div class="background">
+    <section id="about">
+      <div class="card">
+        <img src="../assets/img/ashley-goury.jpg" alt="Picture of Me" class="about-img">
+        <div class="card-body">
+          <h1 class="card-title">About</h1>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem illo hic fugit
+            libero eos deserunt error veniam ducimus architecto eveniet dignissimos neque, cum nostrum distinctio ipsam
+            dolorem necessitatibus commodi. Atque.</p>
+          <a routerLink="/resume" routerLinkActive="active" (click)="scrollOnTop()">
+            <div class="card-button">View Resume</div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+
+  <!--  Projects-->
+  <section id="projects">
+    <h1 class="projects-title">Click to View Projects</h1>
+    <div class="projects">
+      <div class="project-group-1">
+        <article class="project-item">
+          <div class="project-img">
+            <a href="https://jacinto.design"><img src="../assets/img/TicTacToe.png" alt="Project"></a>
+          </div>
+          <div class="project-caption">
+            <h4 class="project-title"><a href="https://jacinto.design">Project Title</a></h4>
+            <h6 class="github-link"><a href="https://github.com" title="View Github Repository">Github</a></h6>
+          </div>
+        </article>
+        <article class="project-item">
+          <div class="project-img">
+            <a href="https://jacinto.design"><img src="../assets/img/TicTacToe.png" alt="Project"></a>
+          </div>
+          <div class="project-caption">
+            <h4 class="project-title"><a href="https://jacinto.design">Project Title</a></h4>
+            <h6 class="github-link"><a href="https://github.com" title="View Github Repository">Github</a></h6>
+          </div>
+        </article>
+        <article class="project-item">
+          <div class="project-img">
+            <a href="https://jacinto.design"><img src="../assets/img/TicTacToe.png" alt="Project"></a>
+          </div>
+          <div class="project-caption">
+            <h4 class="project-title"><a href="https://jacinto.design">Project Title</a></h4>
+            <h6 class="github-link"><a href="https://github.com" title="View Github Repository">Github</a></h6>
+          </div>
+        </article>
+      </div>
+      <div class="project-group-2">
+        <article class="project-item">
+          <div class="project-img">
+            <a href="https://jacinto.design"><img src="../assets/img/TicTacToe.png" alt="Project"></a>
+          </div>
+          <div class="project-caption">
+            <h4 class="project-title"><a href="https://jacinto.design">Project Title</a></h4>
+            <h6 class="github-link"><a href="https://github.com" title="View Github Repository">Github</a></h6>
+          </div>
+        </article>
+        <article class="project-item">
+          <div class="project-img">
+            <a href="https://jacinto.design"><img src="../assets/img/TicTacToe.png" alt="Project"></a>
+          </div>
+          <div class="project-caption">
+            <h4 class="project-title"><a href="https://jacinto.design">Project Title</a></h4>
+            <h6 class="github-link"><a href="https://github.com" title="View Github Repository">Github</a></h6>
+          </div>
+        </article>
+        <article class="project-item">
+          <div class="project-img">
+            <a href="https://jacinto.design"><img src="../assets/img/TicTacToe.png" alt="Project"></a>
+          </div>
+          <div class="project-caption">
+            <h4 class="project-title"><a href="https://jacinto.design">Project Title</a></h4>
+            <h6 class="github-link"><a href="https://github.com" title="View Github Repository">Github</a></h6>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!--  Contact-->
+  <div class="background">
+    <section id="contact">
+      <a href="mailto:ashleygoury@outlook.com" class="contact-mail" rel="noopener" title="Clcik to Send Email">
+        <img src="../assets/img/business-card.png" alt="Business Cards" class="business-card">
+      </a>
+    </section>
+  </div>
+
+  <!--  Footer-->
+  <section id="footer">
+    <div class="footer-icons">
+      <a href="https://github.com/ashleygoury" target="_blank" rel="noopener">
+        <fa-icon [icon]="faGithub" title="Github"></fa-icon>
+      </a>
+      <a href="https://www.linkedin.com/in/ashley-goury/" target="_blank" rel="noopener">
+        <fa-icon [icon]="faLinkedin" title="Linkedin"></fa-icon>
+      </a>
+      <a href="https://www.facebook.com/ashley2705" target="_blank" rel="noopener">
+        <fa-icon [icon]="faFacebook" title="Facebook"></fa-icon>
+      </a>
+      <a href="https://gitlab.com/ashleygoury" target="_blank" rel="noopener">
+        <fa-icon [icon]="faGitlab" title="Gitlab"></fa-icon>
+      </a>
+      <p class="footer-text">Ashley Goury - 2020</p>
+    </div>
+  </section>
+
+</div>

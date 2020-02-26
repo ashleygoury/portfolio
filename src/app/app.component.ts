@@ -26,17 +26,6 @@ export class AppComponent {
   faLinkedin = faLinkedin;
   faFacebook = faFacebook;
   faGitlab = faGitlab;
-  faMedium = faMedium;
-  faHtml5 = faHtml5;
-  faCss3Alt = faCss3Alt;
-  faJsSquare = faJsSquare;
-  faReact = faReact;
-  faAngular = faAngular;
-  faCircle = faCircle;
-  faAt = faAt;
-  faCertificate = faCertificate;
-  faTrophy = faTrophy;
-  faBars = faBars;
 
   scrollOnTop() {
     document.documentElement.scrollTop = 0;
